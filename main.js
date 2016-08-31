@@ -1,7 +1,6 @@
-var React = require('react');
-var ReactDom = require('react-dom');
-var Calendar = require('react-input-calendar').default;
-//import Calendar from 'react-input-calendar'
+import React from 'react'
+import ReactDom from 'react-dom'
+import Calendar from 'react-input-calendar'
 
 var CommentBox = React.createClass({
   render: function() {
